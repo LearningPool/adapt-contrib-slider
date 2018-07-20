@@ -79,9 +79,11 @@ guide the learner’s interaction with the component.
 
 **_showNumber** (boolean): When set to `true`, a numeric value appears on the marker described in **_showScaleIndicator**. The value indicates the slider's position on the scale. The default is `true`. Note that **_showScaleIndicator** must be set to `true` in order for this to work.  
 
-**_showScaleIndicator** (boolean): When set to `true`, a marker for the position of the slider along the scale is shown. If **_showNumber** is `true` this marker will contain a numeric value. If **_showNumber** is `false` a blank marker is shown.  
+**_showScaleIndicator** (boolean): Set to `true`, a marker for the position of the slider along the scale is shown. If **_showNumber** is `true` this marker will contain a numeric value. If **_showNumber** is `false` a blank marker is shown.  
 
 **_showScale** (boolean): When set to `false`, visual indications of the scale&mdash;range of numbers and short rules&mdash;are not displayed. The default is `true`.
+
+**_showScaleNumbers** (boolean): When set to `false`, numbers are not shown over the scale items. Useful if you have a scale with very many steps where displaying that many  numbers would make it look crowded or even unreadable. The default is `true`.
 
 **_feedback** (object): If the [**Tutor** extension](https://github.com/adaptlearning/adapt-contrib-tutor) is enabled, these various texts will be displayed depending on the submitted answer. **_feedback**
 contains values for three types of answers: **correct**, **_incorrect**, and **_partlyCorrect**. Some attributes are optional. If they are not supplied, the default that is noted below will be used.
@@ -111,9 +113,9 @@ contains values for three types of answers: **correct**, **_incorrect**, and **_
 No known limitations.  
 
 ----------------------------
-**Version number:**  2.2.0  <a href="https://community.adaptlearning.org/" target="_blank"><img src="https://github.com/adaptlearning/documentation/blob/master/04_wiki_assets/plug-ins/images/adapt-logo-mrgn-lft.jpg" alt="adapt learning logo" align="right"></a>
+**Version number:**  2.3.0  <a href="https://community.adaptlearning.org/" target="_blank"><img src="https://github.com/adaptlearning/documentation/blob/master/04_wiki_assets/plug-ins/images/adapt-logo-mrgn-lft.jpg" alt="adapt learning logo" align="right"></a>
 **Framework versions:** 2.0.13+  
 **Author / maintainer:** Adapt Core Team with [contributors](https://github.com/adaptlearning/adapt-contrib-slider/graphs/contributors)    
 **Accessibility support:** WAI AA   
 **RTL support:** yes  
-**Cross-platform coverage:** Chrome, Chrome for Android, Firefox (ESR + latest version), Edge 12, IE 11, IE10, IE9, IE8, IE Mobile 11, Safari iOS 9+10, Safari OS X 9+10, Opera    
+**Cross-platform coverage:** Chrome, Chrome for Android, Firefox (ESR + latest version), Edge, IE11, IE10, IE9, IE8, IE Mobile 11, Safari 10+11 for macOS+iOS, Opera    
